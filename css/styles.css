@@ -621,10 +621,10 @@ a {
 
 .footer-text {
   margin-bottom: 16px;
-
   font-weight: 500;
-
-  color: var(--secondary-white-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;;
 }
 
 .subscribe-form {
@@ -740,7 +740,7 @@ a {
   justify-content: center;
   width: 100%;
   height: 100%;
-  padding: 20px 0;
+  padding: 72px 24px 24px 24px;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 500ms, visibility 500ms;
 }
@@ -923,8 +923,6 @@ a {
   
 }
 
-.checkbox-text
-
 .privacy-policy {
   display: flex;
   align-items: center;
@@ -963,9 +961,9 @@ a {
   background-color: var(--accent-color-dark);
 }
 
-.new-checkbox {
+ .new-checkbox {
   position: relative;
-  display: inline-flex;
+  display: inline-flex; 
   align-items: center;
   justify-content: center;
 
@@ -985,9 +983,9 @@ a {
 }
 
 .check-input:checked + .check-label .new-checkbox {
-  background-color: var(--secondary-white-color);
+  background-color: var(--accent-color-dark);
   border: none;
-  fill: var(--accent-color-dark);
+  fill: var(--secondary-white-color);
   
 }
 
